@@ -1,10 +1,11 @@
 import './App.css'
+import Splash from './components/Splash/Splash'
 
 function App() {
 
   return (
     <>
-      <h1>Busket-Buddy-App</h1>
+      <Splash/>
     </>
   )
 }
