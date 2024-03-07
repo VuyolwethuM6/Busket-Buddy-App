@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './App.css'
 import Login from './components/Login/login'
 import Splash from './components/Splash/Splash'
+import Signup from './components/Signup/signup';
+import Dashboard from './components/Dashboard/dashboard';
 
 function App() {
   const [showLogin, setShowLogin] = useState(false);
@@ -20,7 +22,9 @@ function App() {
       <div className="App">
         <Routes>
           {!showLogin && <Route path="/" element={<Splash />} />}
-          {showLogin && <Route path="/" element={<Login />} />}
+          {showLogin && <Route path="/login" element={<Login />} />}
+          <Route path="/signup" element={<Signup />} />
+          <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
       </div>
     </Router>

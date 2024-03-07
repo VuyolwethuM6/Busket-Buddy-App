@@ -1,0 +1,29 @@
+.card {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #C9DBAF;
+    height: 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text {
+    flex: 1;
+    line-height: 0.2;
+  }
+  
+  .icons {
+    display: flex;
+  }
+  
+  .icon {
+    margin-left: 25px;
+  }
+  
+  .icon img {
+    width: 30px;
+    height: 30px;
+  }
+  

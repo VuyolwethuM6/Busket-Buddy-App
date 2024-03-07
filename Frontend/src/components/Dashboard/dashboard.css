@@ -1,0 +1,90 @@
+body {
+    background-image: url('../../assets/vuyo image.png');
+    background-size: contain;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: relative; /* Ensure positioning of absolute elements */
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #000000;
+    font-weight: bold;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000; /* Ensure the navbar stays on top of other content */
+}
+
+.navbar img {
+    width: 100%;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.tab-container {
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #C9DBAF;
+    /* padding: 10px; */
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.tab {
+    flex: 1; /* Fill the available space */
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color: #fff;
+}
+
+
+
+
+.tab.active {
+    background-color:  #495F29 ;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    margin-top: 100px; /* Add margin top equal to the height of the navbar */
+    box-sizing: border-box;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+/* Sticky Add Button */
+.add-button {
+    position: absolute;
+    bottom: 90px;
+    right: 10px;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    /* transition: background-color 0.3s ease; */
+}
+
+.add-button:hover {
+    background-color:#C9DBAF;
+    border-radius: 80px;
+}
