@@ -1,10 +1,10 @@
 import './login.css';
-import login_back from "../../assets/login-background.png"
-import google_icon from '../../assets/icons/google.svg'
 
+import google_icon from '../../assets/icons/google.svg'
+//
 const Login = () => {
   return (
-    <div className="page_container" style={{ backgroundImage: `url(${login_back})` }}>
+    <div className="page_container">
       <div className="card">
         <div className="form_container">
           <h2>Login Account</h2>
@@ -39,7 +39,7 @@ const Login = () => {
           </div>
 
           <div className="dont_have_account">
-            Don&apos;t have an account? <a href="#" className="signup_link">Sign up</a>
+            Don&apos;t have an account? <a href="http://localhost:5173/signup" className="signup_link">Sign up</a>
           </div>
         </div>
       </div>
