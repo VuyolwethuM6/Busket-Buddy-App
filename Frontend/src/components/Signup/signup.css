@@ -1,0 +1,74 @@
+.sign_up {
+    background-image: url('../../assets/vuyo image.png');
+    background-size:contain;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+  }
+
+  .signup_container {
+    text-align: center;
+
+  }
+
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px 50px 25px 29px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .signup_heading {
+    color: #495F29;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .input_container {
+    position: relative;
+    margin-bottom: 20px;
+  }
+
+  .input_field {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #C9DBAF;
+    border-radius: 5px;
+  }
+
+  .floating_label {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    pointer-events: none;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .input_field:focus + .floating_label,
+  .input_field:not(:placeholder-shown) + .floating_label {
+    top: -19px;
+    left: 5px;
+    font-size: 12px;
+    color: #495F29;
+  }
+
+  .submit_button {
+    background-color: #495F29;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+
+  .submit_button:hover {
+    background-color: #3d4a1e;
+  }
+
+  .login_link {
+    color: #495F29;
+  }
