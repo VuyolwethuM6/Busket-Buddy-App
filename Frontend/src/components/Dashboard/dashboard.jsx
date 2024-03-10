@@ -27,7 +27,7 @@ function Dashboard() {
       </div>
 
       <div id="tab2" className={`tab-content ${activeTab === 'tab2' ? 'active' : ''}`}>
-        <p>Content of Tab 2</p>
+        <p>Group Content</p>
       </div>
       <img src={add} alt="" className="add-button"/>
     </div>
