@@ -2,7 +2,7 @@ import './CardItem.css';
 
 const CardItem = () => {
   return (
-    <div className="card">
+    <div className="card-item">
       <div className="text">
         <h3>Apples</h3><br/>
         <small>3 x Red R9.00</small>
