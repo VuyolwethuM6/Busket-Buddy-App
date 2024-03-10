@@ -22,7 +22,7 @@ function App() {
       <div className="App">
         <Routes>
           {!showLogin && <Route path="/" element={<Splash />} />}
-          {showLogin && <Route path="/login" element={<Login />} />}
+          {showLogin && <Route path="/" element={<Login />} />}
           <Route path="/signup" element={<Signup />} />
           <Route path="/dashboard" element={<Dashboard />} />
         </Routes>
