@@ -3,10 +3,10 @@ import './signup.css';
 
 const Signup = () => {
   return (
-    <div className='sign_up'>
+    <div className='sign_up'>z
       <div className="signup_container">
         <div className="card">
-          <h2 className="signup_heading">Sign Up Account</h2>
+          <h2 >Sign Up Account</h2>
           <form>
             <div className="input_container">
               <input

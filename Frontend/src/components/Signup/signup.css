@@ -8,22 +8,23 @@
 
   }
 
-  .signup_container {
+  /* .signup_container {
     text-align: center;
 
-  }
+  } */
 
-  .card {
+  /* .card {
     background-color: #fff;
     border-radius: 10px;
     padding: 20px 50px 25px 29px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
-  }
+  } */
 
   .signup_heading {
     color: #495F29;
     font-weight: bold;
     margin-bottom: 20px;
+    text-align: center;
   }
 
   .input_container {
