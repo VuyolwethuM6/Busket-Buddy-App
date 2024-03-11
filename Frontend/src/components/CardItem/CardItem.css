@@ -1,6 +1,6 @@
 .card-item {
   display: flex;
-  align-items: center;
+  align-items:center;
   padding: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
@@ -22,7 +22,7 @@
   margin-left: 25px;
 }
 
-.icon img {
+.icons .icon img {
   width: 30px;
   height: 30px;
 }
