@@ -54,9 +54,6 @@ body {
     color: #fff;
 }
 
-
-
-
 .tab.active {
     background-color:  #495F29 ;
 }
@@ -71,7 +68,6 @@ body {
 .tab-content.active {
     display: block;
 }
-
 
 .add-button {
     position: absolute;
