@@ -7,7 +7,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    position: relative; /* Ensure positioning of absolute elements */
+    position: relative; 
 }
 
 .navbar {
