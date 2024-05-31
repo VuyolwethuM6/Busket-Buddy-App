@@ -4,7 +4,6 @@ const cors = require("cors");
 
 const app = express();
 
-
 app.use(function(req, res, next) {
   res.setHeader('Access-Control-Allow-Origin', 'http://localhost:5174');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
@@ -34,7 +33,6 @@ mongoose
 app.listen(PORT, () => {
   console.log(`Server  is listening on port ${PORT}`);
 });
-
 
 app.use(cookieParser());
 app.use(express.json());
