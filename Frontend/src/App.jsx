@@ -36,7 +36,6 @@ export default App;
 
 
 
-// import Login from './components/Login/login'
 // import Splash from './components/Splash/Splash'
 
 // function App() {
