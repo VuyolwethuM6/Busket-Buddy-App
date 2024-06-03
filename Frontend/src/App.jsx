@@ -36,8 +36,6 @@ export default App;
 
 
 
-//   const [showLogin, setShowLogin] = useState(false);
-
 //   useEffect(() => {
 //     const timer = setTimeout(() => {
 //       setShowLogin(true);
