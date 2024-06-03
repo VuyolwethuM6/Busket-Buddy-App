@@ -36,7 +36,6 @@ export default App;
 
 
 
-// import './App.css'
 // import Login from './components/Login/login'
 // import Splash from './components/Splash/Splash'
 
