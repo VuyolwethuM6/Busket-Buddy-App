@@ -36,8 +36,6 @@ export default App;
 
 
 
-// import Splash from './components/Splash/Splash'
-
 // function App() {
 
 //   const [showLogin, setShowLogin] = useState(false);
