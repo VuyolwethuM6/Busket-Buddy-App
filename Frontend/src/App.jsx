@@ -36,9 +36,6 @@ export default App;
 
 
 
-
-
-// import { Route, Routes, Navigate } from 'react-router-dom';
 // import './App.css'
 // import Login from './components/Login/login'
 // import Splash from './components/Splash/Splash'
