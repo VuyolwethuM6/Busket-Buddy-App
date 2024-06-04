@@ -36,7 +36,6 @@ export default App;
 
 
 
-//   useEffect(() => {
 //     const timer = setTimeout(() => {
 //       setShowLogin(true);
 //     }, 3000);
