@@ -37,7 +37,5 @@ export default App;
 
 
 //     const timer = setTimeout(() => {
-//       setShowLogin(true);
-//     }, 3000);
 
 
