@@ -49,5 +49,3 @@ export default App;
 //         {!showLogin && <Route path="/" element={<Splash />} />}
 //         {showLogin && <Route path="/" element={<Navigate to="/login" />} />}
 //         <Route path="/login" element={<Login />} />
-        
-//       </Routes>
