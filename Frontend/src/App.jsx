@@ -35,7 +35,3 @@ function App() {
 export default App;
 
 
-
-//     const timer = setTimeout(() => {
-
-
