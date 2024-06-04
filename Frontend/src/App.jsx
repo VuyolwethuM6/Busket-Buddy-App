@@ -46,5 +46,4 @@ export default App;
 //   return (
 //     <div className="App">
 //       <Routes>
-//         {!showLogin && <Route path="/" element={<Splash />} />}
 
