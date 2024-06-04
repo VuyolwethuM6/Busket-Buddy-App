@@ -43,7 +43,4 @@ export default App;
 //     return () => clearTimeout(timer);
 //   }, []);
 
-//   return (
-//     <div className="App">
-//       <Routes>
 
