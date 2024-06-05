@@ -36,8 +36,7 @@
     text-decoration: none;
     cursor: pointer;
   }
-  
-  /* Add styles for form inputs and labels */
+
   .form-group {
     position: relative;
     margin-bottom: 20px;
