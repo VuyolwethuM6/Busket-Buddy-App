@@ -12,7 +12,6 @@ app.use(function(req, res, next) {
   next();
 });
 
-//   cors({
 //     origin: ["http://localhost:4000"],
 //     methods: ["GET", "POST", "PUT", "DELETE"],
 //     credentials: true,
