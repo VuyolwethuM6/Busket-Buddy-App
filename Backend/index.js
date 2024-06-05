@@ -12,8 +12,6 @@ app.use(function(req, res, next) {
   next();
 });
 
-// );
-
 require("dotenv").config();
 const cookieParser = require("cookie-parser");
 const authRoute = require("./Routes/AuthRoute");
