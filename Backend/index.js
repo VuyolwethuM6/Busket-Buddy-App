@@ -12,7 +12,6 @@ app.use(function(req, res, next) {
   next();
 });
 
-//     methods: ["GET", "POST", "PUT", "DELETE"],
 //     credentials: true,
 //   })
 // );
