@@ -37,7 +37,6 @@ const Modal = ({ closeModal }) => {
   );
 };
 
-// Prop validation
 Modal.propTypes = {
   closeModal: PropTypes.func.isRequired,
 };
