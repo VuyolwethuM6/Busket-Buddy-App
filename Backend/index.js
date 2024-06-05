@@ -12,7 +12,6 @@ app.use(function(req, res, next) {
   next();
 });
 
-//   })
 // );
 
 require("dotenv").config();
