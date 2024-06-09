@@ -133,14 +133,6 @@ export default Login;
 //               <label htmlFor="email">Email</label>
 //             </div>
 //             <div className="input_container">
-//               <input
-//                 type="password"
-//                 name="password"
-//                 placeholder=" "
-//               />
-//               <label htmlFor="password">Password</label>
-//             </div>
-//             <button type="submit">Submit</button>
 
 
 
