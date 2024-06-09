@@ -171,13 +171,3 @@ export default Login;
 //             <span> Login with Google</span>
 //           </div>
 
-//           <div className="dont_have_account">
-//             Don&apos;t have an account? <a href="http://localhost:5173/signup" className="signup_link">Sign up</a>
-//           </div>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
-// export default Login;
