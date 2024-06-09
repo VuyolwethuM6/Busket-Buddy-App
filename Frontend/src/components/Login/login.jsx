@@ -128,11 +128,3 @@ const Login = () => {
 
 export default Login;
 
-
-
-//               <label htmlFor="email">Email</label>
-//             </div>
-//             <div className="input_container">
-
-
-
