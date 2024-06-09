@@ -130,14 +130,6 @@ export default Login;
 
 
 
-
-//           <form>
-//             <div className="input_container">
-//               <input
-//                 type="email"
-//                 name="email"
-//                 placeholder=" "
-//               />
 //               <label htmlFor="email">Email</label>
 //             </div>
 //             <div className="input_container">
