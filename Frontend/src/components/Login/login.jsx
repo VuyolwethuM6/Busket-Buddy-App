@@ -163,11 +163,6 @@ export default Login;
 
 //             <p className="forgot_password">
 //               Forgot password?
-//             </p>
-
-//           </form>
-//           <div className="google_login_container">
-//             <img src={google_icon} alt="Google icon" style={{ width: '110px', height:'50px'}}/>
-//             <span> Login with Google</span>
+ with Google</span>
 //           </div>
 
