@@ -131,14 +131,6 @@ export default Login;
 
 
 
-
-
-// const Login = () => {
-//   return (
-//     <div className="page_container">
-//       <div className="card">
-//         <div className="form_container">
-//           <h2>Login Account</h2>
 //           <form>
 //             <div className="input_container">
 //               <input
