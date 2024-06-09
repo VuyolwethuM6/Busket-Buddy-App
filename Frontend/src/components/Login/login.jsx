@@ -133,9 +133,6 @@ export default Login;
 
 
 
-// import './login.css';
-// import google_icon from '../../assets/icons/google.svg';
-
 // const Login = () => {
 //   return (
 //     <div className="page_container">
