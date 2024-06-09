@@ -161,8 +161,5 @@ export default Login;
 //             </div>
 //             <button type="submit">Submit</button>
 
-//             <p className="forgot_password">
-//               Forgot password?
- with Google</span>
-//           </div>
+
 
