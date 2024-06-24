@@ -76,8 +76,8 @@
   .modal-content button {
     display: block;
     width: calc(100% - 40px); 
-    margin: 0 auto; /* Center the button horizontally */
-    margin-top: 20px; /* Add some space between the inputs and the button */
+    margin: 0 auto;
+    margin-top: 20px; 
     padding: 10px;
     background-color: #C9DBAF;
     color: #fff;
