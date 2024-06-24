@@ -33,7 +33,6 @@ const Login = () => {
     theme: "colored",
     });
 
-
   const handleSuccess = (msg) => toast.success(msg, {
     position: "top-right",
     autoClose: 5000,
