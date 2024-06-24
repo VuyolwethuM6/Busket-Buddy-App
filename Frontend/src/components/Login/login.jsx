@@ -57,7 +57,6 @@ const Login = () => {
       );
 
       console.log(data);
-  
 
       const { success, message } = data;
       if (success) {
@@ -77,7 +76,6 @@ const Login = () => {
       password: "",
     });
   };
-
 
   return (
     <div className="page_container">
