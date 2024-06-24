@@ -58,7 +58,7 @@ const Login = () => {
       );
 
       console.log(data);
-      // window.alert(data);
+  
 
       const { success, message } = data;
       if (success) {
