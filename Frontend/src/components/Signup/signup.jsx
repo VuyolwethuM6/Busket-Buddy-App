@@ -92,7 +92,7 @@ const Signup = () => {
                 onChange={handleOnChange}
               />
               <label htmlFor="name" className="floating_label">Name</label>
-              {/* Name validation code here */}
+              
             </div>
             <div className="input_container">
               <input
@@ -104,7 +104,7 @@ const Signup = () => {
                 onChange={handleOnChange}
               />
               <label htmlFor="email" className="floating_label">Email</label>
-              {/* Email validation code here */}
+              
             </div>
             <div className="input_container">
               <input
