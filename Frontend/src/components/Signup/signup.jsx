@@ -133,15 +133,6 @@ const Signup = () => {
 export default Signup;
 
 
-//                 placeholder=" "
-//                 className="input_field"
-//               />
-//               <label htmlFor="password" className="floating_label">Password</label>
-//               {/* Password validation code here */}
-//             </div>
-//             <div className="login_link">
-//               Already have an account? &nbsp;&nbsp;<a href="http://localhost:5173/login">Login </a>
-//             </div>
 //             <button type="submit" className="submit_button">Submit</button>
             
 //           </form>
