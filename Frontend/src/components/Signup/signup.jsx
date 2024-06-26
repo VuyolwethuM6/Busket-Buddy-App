@@ -133,13 +133,4 @@ const Signup = () => {
 export default Signup;
 
 
-//             <button type="submit" className="submit_button">Submit</button>
-            
-//           </form>
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
 
-// export default Signup;
