@@ -135,13 +135,7 @@ export default Signup;
 
 
 
-// import './signup.css';
 
-// const Signup = () => {
-//   return (
-//     <div className='sign_up'>z
-//       <div className="signup_container">
-//         <div className="card">
 //           <h2 >Sign Up Account</h2>
 //           <form>
 //             <div className="input_container">
