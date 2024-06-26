@@ -133,21 +133,6 @@ const Signup = () => {
 export default Signup;
 
 
-
-
-
-//           <h2 >Sign Up Account</h2>
-//           <form>
-//             <div className="input_container">
-//               <input
-//                 type="text"
-//                 name="name"
-//                 placeholder=" "
-//                 className="input_field"
-//               />
-//               <label htmlFor="name" className="floating_label">Name</label>
-//               {/* Name validation code here */}
-//             </div>
 //             <div className="input_container">
 //               <input
 //                 type="email"
