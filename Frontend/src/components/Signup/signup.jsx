@@ -33,8 +33,6 @@ const Signup = () => {
     theme: "colored",
     });
 
-
-  // const handleSuccess = (msg) => window.alert(msg);
   const handleSuccess = (msg) => toast.success(msg, {
     position: "top-right",
     autoClose: 5000,
