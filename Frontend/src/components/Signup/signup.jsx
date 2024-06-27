@@ -113,8 +113,7 @@ const Signup = () => {
                 value={password}
                 onChange={handleOnChange}
               />
-              <label htmlFor="password" className="floating_label">Password</label>
-              
+              <label htmlFor="password" className="floating_label">Password</label>  
             </div>
             <div className="login_link">
               Already have an account? &nbsp;&nbsp;<a href="http://localhost:5174/login">Login </a>
