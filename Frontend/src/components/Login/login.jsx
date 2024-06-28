@@ -7,7 +7,6 @@ import 'react-toastify/dist/ReactToastify.css';
 import google_icon from '../../assets/icons/google.svg'
 
 const Login = () => {
-
   const navigate = useNavigate();
   const [inputValue, setInputValue] = useState({
     email: "",
@@ -21,7 +20,6 @@ const Login = () => {
       [name]: value,
     });
   };
-
   const handleError = (err) => toast.error(err, {
     position: "top-right",
     autoClose: 5000,
@@ -32,7 +30,6 @@ const Login = () => {
     progress: undefined,
     theme: "colored",
     });
-
   const handleSuccess = (msg) => toast.success(msg, {
     position: "top-right",
     autoClose: 5000,
@@ -43,7 +40,6 @@ const Login = () => {
     progress: undefined,
     theme: "colored",
     });
-
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
