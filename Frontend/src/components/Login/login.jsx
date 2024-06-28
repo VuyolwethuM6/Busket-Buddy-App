@@ -71,7 +71,6 @@ const Login = () => {
       password: "",
     });
   };
-
   return (
     <div className="page_container">
       <div className="card">
