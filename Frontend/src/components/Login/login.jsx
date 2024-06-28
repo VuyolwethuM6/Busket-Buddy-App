@@ -100,7 +100,6 @@ const Login = () => {
             <span className="forgot_password">
               Forgot password?
             </span>
-
           </form>
           <div className="google_login_container">
               <img src={google_icon} alt="Google icon" style={{ width: '110px', height:'50px'}}/>
