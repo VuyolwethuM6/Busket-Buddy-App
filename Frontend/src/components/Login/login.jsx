@@ -50,7 +50,6 @@ const Login = () => {
         },
         { withCredentials: true }
       );
-
       console.log(data);
 
       const { success, message } = data;
@@ -105,7 +104,6 @@ const Login = () => {
               <img src={google_icon} alt="Google icon" style={{ width: '110px', height:'50px'}}/>
               <span> Login with Google</span>
           </div>
-
           <div className="dont_have_account">
             Don&apos;t have an account? <a href="http://localhost:5173/signup" className="signup_link">Sign up</a>
           </div>
